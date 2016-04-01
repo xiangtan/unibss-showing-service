@@ -1,0 +1,384 @@
+[INFO ][20160203 10:03:18,835][AbstractApplicationContext:510] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5680a178: startup date [Wed Feb 03 10:03:18 CST 2016]; root of context hierarchy
+[INFO ][20160203 10:03:18,930][XmlBeanDefinitionReader:317] Loading XML bean definitions from URL [file:/Z:/tools/workspace/unibss-showing-service/target/classes/spring/applicationContext.xml]
+[INFO ][20160203 10:03:19,420][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dubbo/dubbo-services-conf.xml]
+[INFO ][20160203 10:03:19,498][?:?] using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO ][20160203 10:03:19,545][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [mybatis/mybatis-config.xml]
+[INFO ][20160203 10:03:23,944][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+[INFO ][20160203 10:03:24,441][PropertiesLoaderSupport:172] Loading properties file from class path resource [db.properties]
+[INFO ][20160203 10:03:24,441][PropertiesLoaderSupport:172] Loading properties file from class path resource [service.properties]
+[INFO ][20160203 10:03:25,565][DruidDataSource:638] {dataSource-1} inited
+[INFO ][20160203 10:03:26,595][ServiceBean:107]  [DUBBO] The service ready on spring started. service: com.ai.showing.api.IPartnerDubboApi, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 10:03:26,790][ServiceConfig:510]  [DUBBO] Export dubbo service com.ai.showing.api.IPartnerDubboApi to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 10:03:26,791][ServiceConfig:470]  [DUBBO] Export dubbo service com.ai.showing.api.IPartnerDubboApi to url dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=9960&side=provider&timestamp=1454465006627, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 10:03:26,791][ServiceConfig:481]  [DUBBO] Register dubbo service com.ai.showing.api.IPartnerDubboApi url dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=9960&side=provider&timestamp=1454465006627 to registry registry://192.168.88.128:2181/com.alibaba.dubbo.registry.RegistryService?application=unibss-showing-service&dubbo=2.5.3&pid=9960&registry=zookeeper&timestamp=1454465006611, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 10:03:27,380][AbstractServer:69]  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.1.139:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 10:03:27,442][AbstractRegistry:232]  [DUBBO] Load registry store file C:\Users\think\.dubbo\dubbo-registry-192.168.88.128.cache, data: {com.ai.showing.api.IPartnerDubboApi=empty://192.168.1.101:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&category=configurators&check=false&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=7656&side=provider&timestamp=1454338379509, com.love.travel.dubbo.api.IUserDubboApi=empty://10.37.242.180:20880/com.love.travel.dubbo.api.IUserDubboApi?anyhost=true&application=basic-service-provider&category=configurators&check=false&dubbo=2.5.3&interface=com.love.travel.dubbo.api.IUserDubboApi&methods=getById,insert&pid=7536&side=provider&timestamp=1450081957491, com.lyc.dubbo.service.DubboDemoService=empty://192.168.1.190/com.lyc.dubbo.service.DubboDemoService?application=dubbo-demo-consumer&category=configurators&dubbo=2.5.3&interface=com.lyc.dubbo.service.DubboDemoService&methods=add&pid=7876&side=consumer&timestamp=1446800743543 empty://192.168.1.190/com.lyc.dubbo.service.DubboDemoService?application=dubbo-demo-consumer&category=routers&dubbo=2.5.3&interface=com.lyc.dubbo.service.DubboDemoService&methods=add&pid=7876&side=consumer&timestamp=1446800743543 dubbo://192.168.1.190:20880/com.lyc.dubbo.service.DubboDemoService?anyhost=true&application=dubbo-service-provider&dubbo=2.5.3&interface=com.lyc.dubbo.service.DubboDemoService&methods=add&pid=8872&side=provider&timestamp=1446789916312, com.love.travel.facade.service.IUserDubboFacade=empty://192.168.1.139:20880/com.love.travel.facade.service.IUserDubboFacade?anyhost=true&application=love-travel-service&category=configurators&check=false&dubbo=2.5.3&interface=com.love.travel.facade.service.IUserDubboFacade&methods=getById,insert,login&pid=10184&side=provider&timestamp=1454055192450}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 10:03:27,489][ZkEventThread:64] Starting ZkClient event thread.
+[INFO ][20160203 10:03:27,505][Environment:100] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+[INFO ][20160203 10:03:27,505][Environment:100] Client environment:host.name=yicai
+[INFO ][20160203 10:03:27,505][Environment:100] Client environment:java.version=1.8.0_65
+[INFO ][20160203 10:03:27,505][Environment:100] Client environment:java.vendor=Oracle Corporation
+[INFO ][20160203 10:03:27,505][Environment:100] Client environment:java.home=Z:\tools\java\jdk1.8.0_65\jre
+[INFO ][20160203 10:03:27,505][Environment:100] Client environment:java.class.path=Z:\tools\workspace\unibss-showing-service\target\classes;Z:\tools\workspace\unibss-common\target\classes;Z:\tools\workspace\unibss-common-config\target\classes;Z:\tools\workspace\unibss-showing-api\target\classes;Z:\tools\maven\resp\tk\mybatis\mapper\3.3.3\mapper-3.3.3.jar;Z:\tools\maven\resp\javax\persistence\persistence-api\1.0\persistence-api-1.0.jar;Z:\tools\maven\resp\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;Z:\tools\maven\resp\javax\servlet\jstl\1.2\jstl-1.2.jar;Z:\tools\maven\resp\javax\servlet\servlet-api\3.0-alpha-1\servlet-api-3.0-alpha-1.jar;Z:\tools\maven\resp\javax\servlet\jsp\jsp-api\2.2\jsp-api-2.2.jar;Z:\tools\maven\resp\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;Z:\tools\maven\resp\commons-io\commons-io\2.2\commons-io-2.2.jar;Z:\tools\maven\resp\org\apache\poi\poi-excelant\3.12\poi-excelant-3.12.jar;Z:\tools\maven\resp\org\apache\poi\poi\3.12\poi-3.12.jar;Z:\tools\maven\resp\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;Z:\tools\maven\resp\org\apache\poi\poi-ooxml\3.12\poi-ooxml-3.12.jar;Z:\tools\maven\resp\org\apache\poi\poi-ooxml-schemas\3.12\poi-ooxml-schemas-3.12.jar;Z:\tools\maven\resp\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;Z:\tools\maven\resp\stax\stax-api\1.0.1\stax-api-1.0.1.jar;Z:\tools\maven\resp\org\apache\ant\ant\1.8.2\ant-1.8.2.jar;Z:\tools\maven\resp\org\apache\ant\ant-launcher\1.8.2\ant-launcher-1.8.2.jar;Z:\tools\maven\resp\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;Z:\tools\maven\resp\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;Z:\tools\maven\resp\log4j\log4j\1.2.17\log4j-1.2.17.jar;Z:\tools\maven\resp\org\aspectj\aspectjweaver\1.8.0\aspectjweaver-1.8.0.jar;Z:\tools\maven\resp\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;Z:\tools\maven\resp\cglib\cglib-nodep\3.1\cglib-nodep-3.1.jar;Z:\tools\maven\resp\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;Z:\tools\maven\resp\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;Z:\tools\maven\resp\org\springframework\spring-core\4.1.6.RELEASE\spring-core-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-beans\4.1.6.RELEASE\spring-beans-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-aop\4.1.6.RELEASE\spring-aop-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-context\4.1.6.RELEASE\spring-context-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-context-support\4.1.6.RELEASE\spring-context-support-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-expression\4.1.6.RELEASE\spring-expression-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-jdbc\4.1.6.RELEASE\spring-jdbc-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-test\4.1.6.RELEASE\spring-test-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-tx\4.1.6.RELEASE\spring-tx-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-web\4.1.6.RELEASE\spring-web-4.1.6.RELEASE.jar;Z:\tools\maven\resp\com\alibaba\druid\1.0.2\druid-1.0.2.jar;Z:\tools\maven\resp\com\alibaba\fastjson\1.2.6\fastjson-1.2.6.jar;Z:\tools\maven\resp\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;Z:\tools\maven\resp\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;Z:\tools\maven\resp\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;Z:\tools\maven\resp\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;Z:\tools\maven\resp\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;Z:\tools\maven\resp\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;Z:\tools\maven\resp\jline\jline\0.9.94\jline-0.9.94.jar;Z:\tools\maven\resp\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;Z:\tools\maven\resp\com\101tec\zkclient\0.5\zkclient-0.5.jar;Z:\tools\maven\resp\org\codehaus\jackson\jackson-core-asl\1.9.8\jackson-core-asl-1.9.8.jar;Z:\tools\maven\resp\org\codehaus\jackson\jackson-mapper-asl\1.9.8\jackson-mapper-asl-1.9.8.jar;Z:\tools\maven\resp\com\fasterxml\jackson\core\jackson-core\2.6.0\jackson-core-2.6.0.jar;Z:\tools\maven\resp\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;Z:\tools\maven\resp\com\fasterxml\jackson\core\jackson-databind\2.6.0\jackson-databind-2.6.0.jar;Z:\tools\maven\resp\redis\clients\jedis\2.7.3\jedis-2.7.3.jar;Z:\tools\maven\resp\org\apache\commons\commons-pool2\2.3\commons-pool2-2.3.jar;Z:\tools\maven\resp\org\hibernate\hibernate-validator\5.2.0.Final\hibernate-validator-5.2.0.Final.jar;Z:\tools\maven\resp\com\fasterxml\classmate\1.1.0\classmate-1.1.0.jar;Z:\tools\maven\resp\org\jboss\logging\jboss-logging\3.3.0.Final\jboss-logging-3.3.0.Final.jar;Z:\tools\maven\resp\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;Z:\tools\maven\resp\org\quartz-scheduler\quartz\2.2.1\quartz-2.2.1.jar;Z:\tools\maven\resp\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar
+[INFO ][20160203 10:03:27,505][Environment:100] Client environment:java.library.path=Z:\tools\java\jdk1.8.0_65\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;.;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\Condusiv Technologies\ExpressCache\;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\ProgramData\Lenovo\ReadyApps;X:\tools\Ora10InstantClient;Y:\share\Git-desk\cmd;Y:\share\Git-desk\mingw64\bin;Y:\share\Git-desk\usr\bin%;ZOOKEEPER_HOME %/bin;% ZOOKEEPER_HOME %/conf;X:\tools\TortoiseSVN\bin;Z:\tools\apache-maven-3.3.3\bin;;.
+[INFO ][20160203 10:03:27,520][Environment:100] Client environment:java.io.tmpdir=C:\Users\think\AppData\Local\Temp\
+[INFO ][20160203 10:03:27,520][Environment:100] Client environment:java.compiler=<NA>
+[INFO ][20160203 10:03:27,520][Environment:100] Client environment:os.name=Windows 7
+[INFO ][20160203 10:03:27,520][Environment:100] Client environment:os.arch=amd64
+[INFO ][20160203 10:03:27,520][Environment:100] Client environment:os.version=6.1
+[INFO ][20160203 10:03:27,520][Environment:100] Client environment:user.name=think
+[INFO ][20160203 10:03:27,520][Environment:100] Client environment:user.home=C:\Users\think
+[INFO ][20160203 10:03:27,520][Environment:100] Client environment:user.dir=Z:\tools\workspace\unibss-showing-service
+[INFO ][20160203 10:03:27,520][ZooKeeper:438] Initiating client connection, connectString=192.168.88.128:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@4c168660
+[INFO ][20160203 10:03:27,598][ClientCnxn$SendThread:975] Opening socket connection to server 192.168.88.128/192.168.88.128:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20160203 10:03:27,598][ClientCnxn$SendThread:852] Socket connection established to 192.168.88.128/192.168.88.128:2181, initiating session
+[INFO ][20160203 10:03:27,833][ClientCnxn$SendThread:1235] Session establishment complete on server 192.168.88.128/192.168.88.128:2181, sessionid = 0x152a4d75ba70000, negotiated timeout = 30000
+[INFO ][20160203 10:03:27,833][ZkClient:641] zookeeper state changed (SyncConnected)
+[INFO ][20160203 10:03:27,833][AbstractRegistry:302]  [DUBBO] Register: dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=9960&side=provider&timestamp=1454465006627, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 10:03:27,927][AbstractRegistry:325]  [DUBBO] Subscribe: provider://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&category=configurators&check=false&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=9960&side=provider&timestamp=1454465006627, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 10:03:27,974][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&category=configurators&check=false&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=9960&side=provider&timestamp=1454465006627, urls: [empty://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&category=configurators&check=false&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=9960&side=provider&timestamp=1454465006627], dubbo version: 2.5.3, current host: 127.0.0.1
+[WARN ][20160203 10:19:23,291][AbstractServer:197]  [DUBBO] All clients has discontected from /192.168.1.139:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 10:19:23,291][DubboProtocol$1:130]  [DUBBO] disconected from /192.168.1.139:50311,url:dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=9960&side=provider&timestamp=1454465006627, dubbo version: 2.5.3, current host: 127.0.0.1
+[WARN ][20160203 10:25:22,847][AbstractServer:197]  [DUBBO] All clients has discontected from /192.168.1.139:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 10:25:22,862][DubboProtocol$1:130]  [DUBBO] disconected from /192.168.1.139:50618,url:dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=9960&side=provider&timestamp=1454465006627, dubbo version: 2.5.3, current host: 127.0.0.1
+[WARN ][20160203 10:38:20,732][ExchangeCodec:296]  [DUBBO] Fail to encode response: Response [id=6, version=2.0.0, status=20, event=false, error=null, result=RpcResult [result=com.ai.showing.entity.Partner@2cf4926b, exception=null]], send bad_response info instead, cause: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable, dubbo version: 2.5.3, current host: 127.0.0.1
+java.lang.IllegalStateException: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getDefaultSerializer(SerializerFactory.java:261)
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getSerializer(SerializerFactory.java:233)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Output.writeObject(Hessian2Output.java:406)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectOutput.writeObject(Hessian2ObjectOutput.java:92)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.encodeResponseData(DubboCodec.java:200)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encodeResponse(ExchangeCodec.java:276)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encode(ExchangeCodec.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.encode(DubboCountCodec.java:39)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalEncoder.encode(NettyCodecAdapter.java:81)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:66)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:776)
+	at org.jboss.netty.channel.SimpleChannelHandler.writeRequested(SimpleChannelHandler.java:304)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyHandler.writeRequested(NettyHandler.java:99)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:266)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.write(Channels.java:611)
+	at org.jboss.netty.channel.Channels.write(Channels.java:578)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:251)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyChannel.send(NettyChannel.java:98)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:51)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:171)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][20160203 10:38:20,752][ExchangeCodec:296]  [DUBBO] Fail to encode response: Response [id=7, version=2.0.0, status=20, event=false, error=null, result=RpcResult [result=com.ai.showing.entity.Partner@72d44f29, exception=null]], send bad_response info instead, cause: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable, dubbo version: 2.5.3, current host: 127.0.0.1
+java.lang.IllegalStateException: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getDefaultSerializer(SerializerFactory.java:261)
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getSerializer(SerializerFactory.java:233)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Output.writeObject(Hessian2Output.java:406)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectOutput.writeObject(Hessian2ObjectOutput.java:92)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.encodeResponseData(DubboCodec.java:200)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encodeResponse(ExchangeCodec.java:276)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encode(ExchangeCodec.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.encode(DubboCountCodec.java:39)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalEncoder.encode(NettyCodecAdapter.java:81)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:66)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:776)
+	at org.jboss.netty.channel.SimpleChannelHandler.writeRequested(SimpleChannelHandler.java:304)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyHandler.writeRequested(NettyHandler.java:99)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:266)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.write(Channels.java:611)
+	at org.jboss.netty.channel.Channels.write(Channels.java:578)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:251)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyChannel.send(NettyChannel.java:98)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:51)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:171)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][20160203 10:38:20,774][ExchangeCodec:296]  [DUBBO] Fail to encode response: Response [id=8, version=2.0.0, status=20, event=false, error=null, result=RpcResult [result=com.ai.showing.entity.Partner@9e53c03, exception=null]], send bad_response info instead, cause: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable, dubbo version: 2.5.3, current host: 127.0.0.1
+java.lang.IllegalStateException: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getDefaultSerializer(SerializerFactory.java:261)
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getSerializer(SerializerFactory.java:233)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Output.writeObject(Hessian2Output.java:406)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectOutput.writeObject(Hessian2ObjectOutput.java:92)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.encodeResponseData(DubboCodec.java:200)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encodeResponse(ExchangeCodec.java:276)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encode(ExchangeCodec.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.encode(DubboCountCodec.java:39)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalEncoder.encode(NettyCodecAdapter.java:81)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:66)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:776)
+	at org.jboss.netty.channel.SimpleChannelHandler.writeRequested(SimpleChannelHandler.java:304)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyHandler.writeRequested(NettyHandler.java:99)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:266)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.write(Channels.java:611)
+	at org.jboss.netty.channel.Channels.write(Channels.java:578)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:251)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyChannel.send(NettyChannel.java:98)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:51)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:171)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][20160203 10:55:11,257][ExchangeCodec:296]  [DUBBO] Fail to encode response: Response [id=9, version=2.0.0, status=20, event=false, error=null, result=RpcResult [result=com.ai.showing.entity.Partner@2b279aca, exception=null]], send bad_response info instead, cause: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable, dubbo version: 2.5.3, current host: 127.0.0.1
+java.lang.IllegalStateException: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getDefaultSerializer(SerializerFactory.java:261)
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getSerializer(SerializerFactory.java:233)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Output.writeObject(Hessian2Output.java:406)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectOutput.writeObject(Hessian2ObjectOutput.java:92)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.encodeResponseData(DubboCodec.java:200)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encodeResponse(ExchangeCodec.java:276)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encode(ExchangeCodec.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.encode(DubboCountCodec.java:39)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalEncoder.encode(NettyCodecAdapter.java:81)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:66)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:776)
+	at org.jboss.netty.channel.SimpleChannelHandler.writeRequested(SimpleChannelHandler.java:304)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyHandler.writeRequested(NettyHandler.java:99)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:266)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.write(Channels.java:611)
+	at org.jboss.netty.channel.Channels.write(Channels.java:578)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:251)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyChannel.send(NettyChannel.java:98)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:51)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:171)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][20160203 10:55:11,284][ExchangeCodec:296]  [DUBBO] Fail to encode response: Response [id=10, version=2.0.0, status=20, event=false, error=null, result=RpcResult [result=com.ai.showing.entity.Partner@1105ad3d, exception=null]], send bad_response info instead, cause: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable, dubbo version: 2.5.3, current host: 127.0.0.1
+java.lang.IllegalStateException: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getDefaultSerializer(SerializerFactory.java:261)
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getSerializer(SerializerFactory.java:233)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Output.writeObject(Hessian2Output.java:406)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectOutput.writeObject(Hessian2ObjectOutput.java:92)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.encodeResponseData(DubboCodec.java:200)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encodeResponse(ExchangeCodec.java:276)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encode(ExchangeCodec.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.encode(DubboCountCodec.java:39)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalEncoder.encode(NettyCodecAdapter.java:81)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:66)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:776)
+	at org.jboss.netty.channel.SimpleChannelHandler.writeRequested(SimpleChannelHandler.java:304)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyHandler.writeRequested(NettyHandler.java:99)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:266)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.write(Channels.java:611)
+	at org.jboss.netty.channel.Channels.write(Channels.java:578)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:251)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyChannel.send(NettyChannel.java:98)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:51)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:171)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][20160203 10:55:11,299][ExchangeCodec:296]  [DUBBO] Fail to encode response: Response [id=11, version=2.0.0, status=20, event=false, error=null, result=RpcResult [result=com.ai.showing.entity.Partner@39377967, exception=null]], send bad_response info instead, cause: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable, dubbo version: 2.5.3, current host: 127.0.0.1
+java.lang.IllegalStateException: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getDefaultSerializer(SerializerFactory.java:261)
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getSerializer(SerializerFactory.java:233)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Output.writeObject(Hessian2Output.java:406)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectOutput.writeObject(Hessian2ObjectOutput.java:92)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.encodeResponseData(DubboCodec.java:200)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encodeResponse(ExchangeCodec.java:276)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encode(ExchangeCodec.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.encode(DubboCountCodec.java:39)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalEncoder.encode(NettyCodecAdapter.java:81)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:66)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:776)
+	at org.jboss.netty.channel.SimpleChannelHandler.writeRequested(SimpleChannelHandler.java:304)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyHandler.writeRequested(NettyHandler.java:99)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:266)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.write(Channels.java:611)
+	at org.jboss.netty.channel.Channels.write(Channels.java:578)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:251)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyChannel.send(NettyChannel.java:98)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:51)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:171)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][20160203 10:59:15,039][ExchangeCodec:296]  [DUBBO] Fail to encode response: Response [id=12, version=2.0.0, status=20, event=false, error=null, result=RpcResult [result=com.ai.showing.entity.Partner@7e1f9bcb, exception=null]], send bad_response info instead, cause: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable, dubbo version: 2.5.3, current host: 127.0.0.1
+java.lang.IllegalStateException: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getDefaultSerializer(SerializerFactory.java:261)
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getSerializer(SerializerFactory.java:233)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Output.writeObject(Hessian2Output.java:406)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectOutput.writeObject(Hessian2ObjectOutput.java:92)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.encodeResponseData(DubboCodec.java:200)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encodeResponse(ExchangeCodec.java:276)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encode(ExchangeCodec.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.encode(DubboCountCodec.java:39)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalEncoder.encode(NettyCodecAdapter.java:81)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:66)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:776)
+	at org.jboss.netty.channel.SimpleChannelHandler.writeRequested(SimpleChannelHandler.java:304)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyHandler.writeRequested(NettyHandler.java:99)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:266)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.write(Channels.java:611)
+	at org.jboss.netty.channel.Channels.write(Channels.java:578)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:251)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyChannel.send(NettyChannel.java:98)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:51)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:171)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][20160203 10:59:15,055][ExchangeCodec:296]  [DUBBO] Fail to encode response: Response [id=13, version=2.0.0, status=20, event=false, error=null, result=RpcResult [result=com.ai.showing.entity.Partner@60a9ca5d, exception=null]], send bad_response info instead, cause: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable, dubbo version: 2.5.3, current host: 127.0.0.1
+java.lang.IllegalStateException: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getDefaultSerializer(SerializerFactory.java:261)
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getSerializer(SerializerFactory.java:233)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Output.writeObject(Hessian2Output.java:406)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectOutput.writeObject(Hessian2ObjectOutput.java:92)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.encodeResponseData(DubboCodec.java:200)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encodeResponse(ExchangeCodec.java:276)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encode(ExchangeCodec.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.encode(DubboCountCodec.java:39)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalEncoder.encode(NettyCodecAdapter.java:81)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:66)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:776)
+	at org.jboss.netty.channel.SimpleChannelHandler.writeRequested(SimpleChannelHandler.java:304)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyHandler.writeRequested(NettyHandler.java:99)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:266)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.write(Channels.java:611)
+	at org.jboss.netty.channel.Channels.write(Channels.java:578)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:251)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyChannel.send(NettyChannel.java:98)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:51)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:171)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][20160203 10:59:15,075][ExchangeCodec:296]  [DUBBO] Fail to encode response: Response [id=14, version=2.0.0, status=20, event=false, error=null, result=RpcResult [result=com.ai.showing.entity.Partner@37066e0f, exception=null]], send bad_response info instead, cause: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable, dubbo version: 2.5.3, current host: 127.0.0.1
+java.lang.IllegalStateException: Serialized class com.ai.showing.entity.Partner must implement java.io.Serializable
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getDefaultSerializer(SerializerFactory.java:261)
+	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getSerializer(SerializerFactory.java:233)
+	at com.alibaba.com.caucho.hessian.io.Hessian2Output.writeObject(Hessian2Output.java:406)
+	at com.alibaba.dubbo.common.serialize.support.hessian.Hessian2ObjectOutput.writeObject(Hessian2ObjectOutput.java:92)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.encodeResponseData(DubboCodec.java:200)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encodeResponse(ExchangeCodec.java:276)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encode(ExchangeCodec.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.encode(DubboCountCodec.java:39)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalEncoder.encode(NettyCodecAdapter.java:81)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:66)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:776)
+	at org.jboss.netty.channel.SimpleChannelHandler.writeRequested(SimpleChannelHandler.java:304)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyHandler.writeRequested(NettyHandler.java:99)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:266)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.write(Channels.java:611)
+	at org.jboss.netty.channel.Channels.write(Channels.java:578)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:251)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyChannel.send(NettyChannel.java:98)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:51)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:171)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN ][20160203 10:59:37,296][AbstractServer:197]  [DUBBO] All clients has discontected from /192.168.1.139:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 10:59:37,329][DubboProtocol$1:130]  [DUBBO] disconected from /192.168.1.139:50677,url:dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=9960&side=provider&timestamp=1454465006627, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 11:10:21,962][AbstractApplicationContext:510] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5680a178: startup date [Wed Feb 03 11:10:21 CST 2016]; root of context hierarchy
+[INFO ][20160203 11:10:22,009][XmlBeanDefinitionReader:317] Loading XML bean definitions from URL [file:/Z:/tools/workspace/unibss-showing-service/target/classes/spring/applicationContext.xml]
+[INFO ][20160203 11:10:22,211][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [dubbo/dubbo-services-conf.xml]
+[INFO ][20160203 11:10:22,274][?:?] using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO ][20160203 11:10:22,305][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [mybatis/mybatis-config.xml]
+[INFO ][20160203 11:10:23,312][XmlBeanDefinitionReader:317] Loading XML bean definitions from class path resource [spring/spring-mybatis.xml]
+[INFO ][20160203 11:10:23,719][PropertiesLoaderSupport:172] Loading properties file from class path resource [db.properties]
+[INFO ][20160203 11:10:23,719][PropertiesLoaderSupport:172] Loading properties file from class path resource [service.properties]
+[INFO ][20160203 11:10:24,363][DruidDataSource:638] {dataSource-1} inited
+[INFO ][20160203 11:10:25,099][ServiceBean:107]  [DUBBO] The service ready on spring started. service: com.ai.showing.api.IPartnerDubboApi, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 11:10:25,286][ServiceConfig:510]  [DUBBO] Export dubbo service com.ai.showing.api.IPartnerDubboApi to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 11:10:25,286][ServiceConfig:470]  [DUBBO] Export dubbo service com.ai.showing.api.IPartnerDubboApi to url dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 11:10:25,286][ServiceConfig:481]  [DUBBO] Register dubbo service com.ai.showing.api.IPartnerDubboApi url dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115 to registry registry://192.168.88.128:2181/com.alibaba.dubbo.registry.RegistryService?application=unibss-showing-service&dubbo=2.5.3&pid=3448&registry=zookeeper&timestamp=1454469025099, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 11:10:25,598][AbstractServer:69]  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.1.139:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 11:10:25,629][AbstractRegistry:232]  [DUBBO] Load registry store file C:\Users\think\.dubbo\dubbo-registry-192.168.88.128.cache, data: {com.love.travel.dubbo.api.IUserDubboApi=empty://10.37.242.180:20880/com.love.travel.dubbo.api.IUserDubboApi?anyhost=true&application=basic-service-provider&category=configurators&check=false&dubbo=2.5.3&interface=com.love.travel.dubbo.api.IUserDubboApi&methods=getById,insert&pid=7536&side=provider&timestamp=1450081957491, com.ai.showing.api.IPartnerDubboApi=empty://192.168.1.139/com.ai.showing.api.IPartnerDubboApi?application=unibss-showing-web-consumer&category=configurators&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=8108&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1454466344830 empty://192.168.1.139/com.ai.showing.api.IPartnerDubboApi?application=unibss-showing-web-consumer&category=routers&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=8108&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1454466344830 dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=9960&side=provider&timestamp=1454465006627, com.lyc.dubbo.service.DubboDemoService=empty://192.168.1.190/com.lyc.dubbo.service.DubboDemoService?application=dubbo-demo-consumer&category=configurators&dubbo=2.5.3&interface=com.lyc.dubbo.service.DubboDemoService&methods=add&pid=7876&side=consumer&timestamp=1446800743543 empty://192.168.1.190/com.lyc.dubbo.service.DubboDemoService?application=dubbo-demo-consumer&category=routers&dubbo=2.5.3&interface=com.lyc.dubbo.service.DubboDemoService&methods=add&pid=7876&side=consumer&timestamp=1446800743543 dubbo://192.168.1.190:20880/com.lyc.dubbo.service.DubboDemoService?anyhost=true&application=dubbo-service-provider&dubbo=2.5.3&interface=com.lyc.dubbo.service.DubboDemoService&methods=add&pid=8872&side=provider&timestamp=1446789916312, com.love.travel.facade.service.IUserDubboFacade=empty://192.168.1.139:20880/com.love.travel.facade.service.IUserDubboFacade?anyhost=true&application=love-travel-service&category=configurators&check=false&dubbo=2.5.3&interface=com.love.travel.facade.service.IUserDubboFacade&methods=getById,insert,login&pid=10184&side=provider&timestamp=1454055192450}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 11:10:25,646][ZkEventThread:64] Starting ZkClient event thread.
+[INFO ][20160203 11:10:25,656][Environment:100] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+[INFO ][20160203 11:10:25,657][Environment:100] Client environment:host.name=yicai
+[INFO ][20160203 11:10:25,658][Environment:100] Client environment:java.version=1.8.0_65
+[INFO ][20160203 11:10:25,658][Environment:100] Client environment:java.vendor=Oracle Corporation
+[INFO ][20160203 11:10:25,658][Environment:100] Client environment:java.home=Z:\tools\java\jdk1.8.0_65\jre
+[INFO ][20160203 11:10:25,658][Environment:100] Client environment:java.class.path=Z:\tools\workspace\unibss-showing-service\target\classes;Z:\tools\workspace\unibss-common\target\classes;Z:\tools\workspace\unibss-common-config\target\classes;Z:\tools\workspace\unibss-showing-api\target\classes;Z:\tools\maven\resp\tk\mybatis\mapper\3.3.3\mapper-3.3.3.jar;Z:\tools\maven\resp\javax\persistence\persistence-api\1.0\persistence-api-1.0.jar;Z:\tools\maven\resp\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;Z:\tools\maven\resp\javax\servlet\jstl\1.2\jstl-1.2.jar;Z:\tools\maven\resp\javax\servlet\servlet-api\3.0-alpha-1\servlet-api-3.0-alpha-1.jar;Z:\tools\maven\resp\javax\servlet\jsp\jsp-api\2.2\jsp-api-2.2.jar;Z:\tools\maven\resp\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;Z:\tools\maven\resp\commons-io\commons-io\2.2\commons-io-2.2.jar;Z:\tools\maven\resp\org\apache\poi\poi-excelant\3.12\poi-excelant-3.12.jar;Z:\tools\maven\resp\org\apache\poi\poi\3.12\poi-3.12.jar;Z:\tools\maven\resp\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;Z:\tools\maven\resp\org\apache\poi\poi-ooxml\3.12\poi-ooxml-3.12.jar;Z:\tools\maven\resp\org\apache\poi\poi-ooxml-schemas\3.12\poi-ooxml-schemas-3.12.jar;Z:\tools\maven\resp\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;Z:\tools\maven\resp\stax\stax-api\1.0.1\stax-api-1.0.1.jar;Z:\tools\maven\resp\org\apache\ant\ant\1.8.2\ant-1.8.2.jar;Z:\tools\maven\resp\org\apache\ant\ant-launcher\1.8.2\ant-launcher-1.8.2.jar;Z:\tools\maven\resp\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;Z:\tools\maven\resp\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;Z:\tools\maven\resp\log4j\log4j\1.2.17\log4j-1.2.17.jar;Z:\tools\maven\resp\org\aspectj\aspectjweaver\1.8.0\aspectjweaver-1.8.0.jar;Z:\tools\maven\resp\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;Z:\tools\maven\resp\cglib\cglib-nodep\3.1\cglib-nodep-3.1.jar;Z:\tools\maven\resp\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;Z:\tools\maven\resp\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar;Z:\tools\maven\resp\org\springframework\spring-core\4.1.6.RELEASE\spring-core-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-beans\4.1.6.RELEASE\spring-beans-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-aop\4.1.6.RELEASE\spring-aop-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-context\4.1.6.RELEASE\spring-context-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-context-support\4.1.6.RELEASE\spring-context-support-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-expression\4.1.6.RELEASE\spring-expression-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-jdbc\4.1.6.RELEASE\spring-jdbc-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-test\4.1.6.RELEASE\spring-test-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-tx\4.1.6.RELEASE\spring-tx-4.1.6.RELEASE.jar;Z:\tools\maven\resp\org\springframework\spring-web\4.1.6.RELEASE\spring-web-4.1.6.RELEASE.jar;Z:\tools\maven\resp\com\alibaba\druid\1.0.2\druid-1.0.2.jar;Z:\tools\maven\resp\com\alibaba\fastjson\1.2.6\fastjson-1.2.6.jar;Z:\tools\maven\resp\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;Z:\tools\maven\resp\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;Z:\tools\maven\resp\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;Z:\tools\maven\resp\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;Z:\tools\maven\resp\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;Z:\tools\maven\resp\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;Z:\tools\maven\resp\jline\jline\0.9.94\jline-0.9.94.jar;Z:\tools\maven\resp\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;Z:\tools\maven\resp\com\101tec\zkclient\0.5\zkclient-0.5.jar;Z:\tools\maven\resp\org\codehaus\jackson\jackson-core-asl\1.9.8\jackson-core-asl-1.9.8.jar;Z:\tools\maven\resp\org\codehaus\jackson\jackson-mapper-asl\1.9.8\jackson-mapper-asl-1.9.8.jar;Z:\tools\maven\resp\com\fasterxml\jackson\core\jackson-core\2.6.0\jackson-core-2.6.0.jar;Z:\tools\maven\resp\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;Z:\tools\maven\resp\com\fasterxml\jackson\core\jackson-databind\2.6.0\jackson-databind-2.6.0.jar;Z:\tools\maven\resp\redis\clients\jedis\2.7.3\jedis-2.7.3.jar;Z:\tools\maven\resp\org\apache\commons\commons-pool2\2.3\commons-pool2-2.3.jar;Z:\tools\maven\resp\org\hibernate\hibernate-validator\5.2.0.Final\hibernate-validator-5.2.0.Final.jar;Z:\tools\maven\resp\com\fasterxml\classmate\1.1.0\classmate-1.1.0.jar;Z:\tools\maven\resp\org\jboss\logging\jboss-logging\3.3.0.Final\jboss-logging-3.3.0.Final.jar;Z:\tools\maven\resp\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;Z:\tools\maven\resp\org\quartz-scheduler\quartz\2.2.1\quartz-2.2.1.jar;Z:\tools\maven\resp\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar
+[INFO ][20160203 11:10:25,673][Environment:100] Client environment:java.library.path=Z:\tools\java\jdk1.8.0_65\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;.;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\Condusiv Technologies\ExpressCache\;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\ProgramData\Lenovo\ReadyApps;X:\tools\Ora10InstantClient;Y:\share\Git-desk\cmd;Y:\share\Git-desk\mingw64\bin;Y:\share\Git-desk\usr\bin%;ZOOKEEPER_HOME %/bin;% ZOOKEEPER_HOME %/conf;X:\tools\TortoiseSVN\bin;Z:\tools\apache-maven-3.3.3\bin;;.
+[INFO ][20160203 11:10:25,673][Environment:100] Client environment:java.io.tmpdir=C:\Users\think\AppData\Local\Temp\
+[INFO ][20160203 11:10:25,673][Environment:100] Client environment:java.compiler=<NA>
+[INFO ][20160203 11:10:25,674][Environment:100] Client environment:os.name=Windows 7
+[INFO ][20160203 11:10:25,674][Environment:100] Client environment:os.arch=amd64
+[INFO ][20160203 11:10:25,674][Environment:100] Client environment:os.version=6.1
+[INFO ][20160203 11:10:25,674][Environment:100] Client environment:user.name=think
+[INFO ][20160203 11:10:25,674][Environment:100] Client environment:user.home=C:\Users\think
+[INFO ][20160203 11:10:25,674][Environment:100] Client environment:user.dir=Z:\tools\workspace\unibss-showing-service
+[INFO ][20160203 11:10:25,674][ZooKeeper:438] Initiating client connection, connectString=192.168.88.128:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@226642a5
+[INFO ][20160203 11:10:25,690][ClientCnxn$SendThread:975] Opening socket connection to server 192.168.88.128/192.168.88.128:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20160203 11:10:25,690][ClientCnxn$SendThread:852] Socket connection established to 192.168.88.128/192.168.88.128:2181, initiating session
+[INFO ][20160203 11:10:25,752][ClientCnxn$SendThread:1235] Session establishment complete on server 192.168.88.128/192.168.88.128:2181, sessionid = 0x152a4d75ba70004, negotiated timeout = 30000
+[INFO ][20160203 11:10:25,752][ZkClient:641] zookeeper state changed (SyncConnected)
+[INFO ][20160203 11:10:25,752][AbstractRegistry:302]  [DUBBO] Register: dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 11:10:25,846][AbstractRegistry:325]  [DUBBO] Subscribe: provider://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&category=configurators&check=false&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 11:10:25,862][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&category=configurators&check=false&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115, urls: [empty://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&category=configurators&check=false&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115], dubbo version: 2.5.3, current host: 127.0.0.1
+[WARN ][20160203 11:36:51,992][AbstractServer:197]  [DUBBO] All clients has discontected from /192.168.1.139:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 11:36:51,995][DubboProtocol$1:130]  [DUBBO] disconected from /192.168.1.139:51726,url:dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115, dubbo version: 2.5.3, current host: 127.0.0.1
+[WARN ][20160203 14:01:39,751][AbstractServer:197]  [DUBBO] All clients has discontected from /192.168.1.139:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 14:01:39,751][DubboProtocol$1:130]  [DUBBO] disconected from /192.168.1.139:55778,url:dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 14:10:35,729][ClientCnxn$SendThread:1098] Unable to read additional data from server sessionid 0x152a4d75ba70004, likely server has closed socket, closing socket connection and attempting reconnect
+[WARN ][20160203 14:10:35,787][AbstractServer:197]  [DUBBO] All clients has discontected from /192.168.1.139:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 14:10:35,787][DubboProtocol$1:130]  [DUBBO] disconected from /192.168.1.139:55799,url:dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 14:10:35,835][ZkClient:641] zookeeper state changed (Disconnected)
+[INFO ][20160203 14:10:37,412][ClientCnxn$SendThread:975] Opening socket connection to server 192.168.88.128/192.168.88.128:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20160203 14:10:37,414][ClientCnxn$SendThread:852] Socket connection established to 192.168.88.128/192.168.88.128:2181, initiating session
+[INFO ][20160203 14:10:37,446][ClientCnxn$SendThread:1094] Unable to reconnect to ZooKeeper service, session 0x152a4d75ba70004 has expired, closing socket connection
+[INFO ][20160203 14:10:37,446][ZkClient:641] zookeeper state changed (Expired)
+[INFO ][20160203 14:10:37,446][ZooKeeper:438] Initiating client connection, connectString=192.168.88.128:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@226642a5
+[INFO ][20160203 14:10:37,454][FailbackRegistry:282]  [DUBBO] Recover register url [dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 14:10:37,454][FailbackRegistry:292]  [DUBBO] Recover subscribe url [provider://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&category=configurators&check=false&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 14:10:37,454][ClientCnxn$EventThread:512] EventThread shut down
+[INFO ][20160203 14:10:37,456][ClientCnxn$SendThread:975] Opening socket connection to server 192.168.88.128/192.168.88.128:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20160203 14:10:37,459][ClientCnxn$SendThread:852] Socket connection established to 192.168.88.128/192.168.88.128:2181, initiating session
+[INFO ][20160203 14:10:37,496][ClientCnxn$SendThread:1235] Session establishment complete on server 192.168.88.128/192.168.88.128:2181, sessionid = 0x152a4d75ba70008, negotiated timeout = 30000
+[INFO ][20160203 14:10:37,496][ZkClient:641] zookeeper state changed (SyncConnected)
+[INFO ][20160203 14:10:37,499][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&category=configurators&check=false&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115, urls: [empty://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&category=configurators&check=false&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 14:10:42,156][FailbackRegistry:309]  [DUBBO] Retry register [dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 14:10:42,262][FailbackRegistry:354]  [DUBBO] Retry subscribe {provider://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&category=configurators&check=false&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115=[com.alibaba.dubbo.registry.integration.RegistryProtocol$OverrideListener@5f59185e]}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 14:10:42,301][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&category=configurators&check=false&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115, urls: [empty://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&category=configurators&check=false&dubbo=2.5.3&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115], dubbo version: 2.5.3, current host: 127.0.0.1
+[WARN ][20160203 14:45:33,863][AbstractServer:197]  [DUBBO] All clients has discontected from /192.168.1.139:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 14:45:33,883][DubboProtocol$1:130]  [DUBBO] disconected from /192.168.1.139:56436,url:dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115, dubbo version: 2.5.3, current host: 127.0.0.1
+[WARN ][20160203 15:56:54,589][AbstractServer:197]  [DUBBO] All clients has discontected from /192.168.1.139:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 15:56:54,589][DubboProtocol$1:130]  [DUBBO] disconected from /192.168.1.139:59225,url:dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115, dubbo version: 2.5.3, current host: 127.0.0.1
+[WARN ][20160203 16:57:32,228][AbstractServer:197]  [DUBBO] All clients has discontected from /192.168.1.139:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20160203 16:57:32,230][DubboProtocol$1:130]  [DUBBO] disconected from /192.168.1.139:51678,url:dubbo://192.168.1.139:20880/com.ai.showing.api.IPartnerDubboApi?anyhost=true&application=unibss-showing-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.ai.showing.api.IPartnerDubboApi&methods=getById&pid=3448&side=provider&timestamp=1454469025115, dubbo version: 2.5.3, current host: 127.0.0.1
